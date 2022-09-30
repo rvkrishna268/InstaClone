@@ -1,0 +1,30 @@
+
+
+.header{
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right,#4c68d7,#8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50, #fccc63); 
+
+}
+
+.logo{
+    height: 100px;
+    margin: 5px 200px 0 200px;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.camera-icon{
+    width: 25px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 380px;
+}
+
+.fa-icon:hover{
+    color:white;
+}
+

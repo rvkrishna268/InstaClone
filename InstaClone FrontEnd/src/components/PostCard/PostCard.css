@@ -1,0 +1,98 @@
+.PostCardContainer {
+    width: 100%;
+    background: #ccc;
+    height: 350px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 450px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,#4c68d7,#8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50, #fccc63); 
+
+  }
+  form.PostCardForm {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  input[type="file"] {
+    width: -webkit-fill-available;
+    font-size: 23px;
+    color: aliceblue;
+    font-family: emoji;
+    font-style: oblique;
+    margin: 10px;
+    font-weight: 600;
+  }
+  
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: "Browse";
+    display: inline-block;
+    background: brown;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 23px;
+    width: 100px;
+    text-align: center;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #fff, #f9f9f9);
+  }
+  
+  input[type="text"],input[type="textarea"] {
+    width: 80%;
+    display: block;
+    margin: 7px auto;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: aliceblue;
+    font-weight: 600;
+    border: none;
+    padding: 5px
+  }
+
+  .submit {
+    width: 50%;
+    max-width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px auto;
+    background: rgb(68, 68, 247);
+    color: aliceblue;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right,#4c68d7,#8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50, #fccc63); 
+  }
+  .submit:hover {
+    color: black;
+    background-color: aliceblue;
+  }
+  svg {
+    color: black;
+  }
+  .Link {
+    text-align: center;
+  }
+  
